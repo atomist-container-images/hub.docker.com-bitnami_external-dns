@@ -1,12 +1,24 @@
-# Tags: latest, 0.11.0-debian-10-r8, 0.11.0, 0-debian-10, 0
+# Tags: latest, 0.11.0-debian-10-r13, 0.11.0, 0-debian-10, 0
 FROM bitnami/external-dns:latest
-FROM bitnami/external-dns:0.11.0-debian-10-r8
+FROM bitnami/external-dns:0.11.0-debian-10-r13
 FROM bitnami/external-dns:0.11.0
 FROM bitnami/external-dns:0-debian-10
 FROM bitnami/external-dns:0
 
 # Tags: _
 FROM bitnami/external-dns:_
+
+# Tags: 0.11.0-debian-10-r12
+FROM bitnami/external-dns:0.11.0-debian-10-r12
+
+# Tags: 0.11.0-debian-10-r11
+FROM bitnami/external-dns:0.11.0-debian-10-r11
+
+# Tags: 0.11.0-debian-10-r10
+FROM bitnami/external-dns:0.11.0-debian-10-r10
+
+# Tags: 0.11.0-debian-10-r8
+FROM bitnami/external-dns:0.11.0-debian-10-r8
 
 # Tags: 0.11.0-debian-10-r7
 FROM bitnami/external-dns:0.11.0-debian-10-r7
@@ -80,21 +92,3 @@ FROM bitnami/external-dns:0.10.2-debian-10-r80
 
 # Tags: 0.10.2-debian-10-r79
 FROM bitnami/external-dns:0.10.2-debian-10-r79
-
-# Tags: 0.10.2-debian-10-r78
-FROM bitnami/external-dns:0.10.2-debian-10-r78
-
-# Tags: 0.10.2-debian-10-r77
-FROM bitnami/external-dns:0.10.2-debian-10-r77
-
-# Tags: 0.10.2-debian-10-r76
-FROM bitnami/external-dns:0.10.2-debian-10-r76
-
-# Tags: 0.10.2-debian-10-r75
-FROM bitnami/external-dns:0.10.2-debian-10-r75
-
-# Tags: 0.10.2-debian-10-r74
-FROM bitnami/external-dns:0.10.2-debian-10-r74
-
-# Tags: 0.10.2-debian-10-r73
-FROM bitnami/external-dns:0.10.2-debian-10-r73
